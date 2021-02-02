@@ -1,0 +1,8 @@
+name: woop
+on: [issue_comment]
+
+jobs:
+  test:
+    steps:
+      - name: echo
+      run: echo test
